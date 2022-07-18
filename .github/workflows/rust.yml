@@ -42,3 +42,5 @@ jobs:
       with:
           tool: 'cargo'
           output-file-path: target/criterion.txt
+          comment-on-alert: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
